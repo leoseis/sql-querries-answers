@@ -1,0 +1,10 @@
+CREATE TABLE  announced_state_results
+(
+  result_id int(11) ,
+  state_name varchar(50) ,
+  party_abbreviation char(4),
+  party_score int(11),
+  entered_by_user varchar(50),
+  date_entered datetime,
+  user_ip_address varchar(50)
+  );

@@ -1,0 +1,10 @@
+CREATE TABLE  ward (
+  uniqueid int(11),
+ward_id int(11),
+ward_name varchar(50),
+  lga_id int(11),
+ ward_description text,
+entered_by_use varchar(50),
+  date_entered datetime ,
+  user_ip_address varchar(50)
+  );

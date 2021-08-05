@@ -1,0 +1,5 @@
+CREATE TABLE  party (
+  `id` int(11) ,
+  partyid varchar(11),
+  partyname varchar(11)
+  );

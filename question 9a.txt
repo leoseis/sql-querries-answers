@@ -1,0 +1,15 @@
+CREATE TABLE  polling_unit (
+  uniqueid int(11),
+  polling_unit_id int(11),
+  ward_id int(11),
+  lga_id int(11) ,
+  uniquewardid int(11) ,
+   polling_unit_number varchar(50) ,
+  polling_unit_name varchar(50),
+  polling_unit_description text,
+  lat varchar(255),
+  longitude varchar(255),
+  entered_by_user varchar(50) ,
+  date_entered datetime ,
+  user_ip_address varchar(50)
+  );

@@ -1,0 +1,11 @@
+CREATE TABLE  agent_name
+(
+  nameid int,
+  firstname varchar(255),
+  lastname varchar(255) ,
+  email varchar(255) ,
+  phone char(13) ,
+  pollingunit_uniqueid int(11) 
+  );
+
+

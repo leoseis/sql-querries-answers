@@ -1,0 +1,11 @@
+
+CREATE TABLE lga (
+  uniqueid int(11),
+  lga_id int(11),
+  lga_name varchar(50),
+  state_id int(50),
+  lga_description text,
+  entered_by_user varchar(50),
+  date_entered datetime ,
+  `user_ip_address` varchar(50) 
+  );
